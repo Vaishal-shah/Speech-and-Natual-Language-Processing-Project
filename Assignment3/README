@@ -1,0 +1,13 @@
+Out of 410 instances, 316 sets of vectors were found in fasttext binary.
+Training data: 252
+Test data: 64
+
+The data vectors have been calculated and input is in data_vec_in.pkl and the output in other pkl file
+The word vectors are in fasttext_dict_train_int.pkl (float value instead of string)
+
+pred.py: model for prediction
+util.py: utility for data and predictions.
+
+To run-> "python pred.py"  in terminal.
+Final test accuracy on 64 data points has been shown: 
+40 words out of 64 test words were guessed correctly with accuracy of 62.5%
